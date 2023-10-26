@@ -1,0 +1,53 @@
+{
+  "id": "section1",
+  "type": "SharedSlice",
+  "name": "Section1",
+  "description": "Section1",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "textfield": {
+          "type": "StructuredText",
+          "config": {
+            "label": "textField1",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "budgetfield": {
+          "type": "StructuredText",
+          "config": {
+            "label": "paragraphfield",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "preformatted,heading1,heading2,heading3,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl,paragraph"
+          }
+        },
+        "section1image": {
+          "type": "Image",
+          "config": {
+            "label": "section1image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "video": {
+          "type": "Link",
+          "config": {
+            "label": "video",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

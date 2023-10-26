@@ -1,0 +1,60 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"blogimage",
+						{
+							"__TYPE__": "ImageContent",
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+								"width": 4160,
+								"height": 3120
+							},
+							"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+							"width": 4160,
+							"height": 3120,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"thumbnails": {}
+						}
+					],
+					[
+						"blogtext",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Aliquip pariatur id ut nulla aliqua officia nostrud eiusmod eu. Labore fugiat officia exercitation deserunt occaecat sint consectetur id ea nulla quis sint culpa mollit ex. Exercitation voluptate occaecat consequat do cupidatat pariatur eiusmod proident dolor irure."
+									}
+								}
+							]
+						}
+					],
+					[
+						"blogtime",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Timestamp",
+							"value": "2013-08-21T08:17:41Z"
+						}
+					]
+				]
+			}
+		]
+	}
+]

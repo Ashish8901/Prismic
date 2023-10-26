@@ -1,0 +1,43 @@
+{
+  "id": "blogs",
+  "type": "SharedSlice",
+  "name": "Blogs",
+  "description": "Blogs",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "blogimage": {
+          "type": "Image",
+          "config": {
+            "label": "blogImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "blogtext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "blogText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "blogtime": {
+          "type": "Timestamp",
+          "config": {
+            "label": "blogTime",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}
